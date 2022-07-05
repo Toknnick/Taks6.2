@@ -29,10 +29,10 @@ namespace Task6._2
         public int PositionX { get; private set; }
         public int PositionY { get; private set; }
 
-        public Player(int x, int y)
+        public Player(int positionX, int positionY)
         {
-            PositionX = x;
-            PositionY = y;
+            PositionX = positionX;
+            PositionY = positionY;
         }
     }
 }
